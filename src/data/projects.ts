@@ -1,7 +1,4 @@
-import SupabaseIcon from '../assets/logos/Supabase-logo.svg?raw';
-import PosthogIcon from '../assets/logos/posthog-logo.svg?raw';
-import PythonIcon from '../assets/logos/Python-logo.svg?raw';
-import TailwindIcon from '../assets/logos/Tailwind-logo.svg?raw';
+
 
 
 export const projects = [
