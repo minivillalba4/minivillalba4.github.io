@@ -1,3 +1,4 @@
+
 import { sanitizeToOutline } from '../lib/svg';
 
 export const workIcons = {
