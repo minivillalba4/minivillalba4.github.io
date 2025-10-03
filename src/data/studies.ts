@@ -1,27 +1,33 @@
 export const studies = [
   {
-    title: "B.S. in Computer Science",
-    institution: "State University",
+    title: "Grado en Data Science y Business Analytics",
+    institution: "ESIC University",
     description:
-      "Core CS foundations: data structures, algorithms, operating systems, networking, and databases; team capstone in web systems.",
+      "Programa interdisciplinar que combina análisis de datos, programación (Python, SQL), fundamentos de negocio y visualización (Power BI, Excel avanzado). Incluye formación en machine learning, EDA, Big Data y Microsoft Azure",
     tags: [
-      "Algorithms",
-      "Data Structures",
-      "Operating Systems",
-      "Databases",
-      "Networking",
+      "Python",
+      "SQL",
+      "Power BI",
+      "Excel",
+      "Machine Learning",
+      "EDA",
+      "Apache Spark",
+      "Azure",
+      "Big Data",
+      "Estructuras de datos"
     ],
   },
   {
-    title: "M.S. in Software Engineering",
-    institution: "Tech Institute",
+    title: "Técnico Superior en Marketing y Publicidad",
+    institution: "IES Luis Buñuel, Alcorcón",
     description:
-      "Focus on distributed systems, testing strategies, and cloud architecture; thesis on resilience patterns in microservices.",
+      "Formación centrada en estrategias de marketing, investigación de mercados, comunicación digital y gestión publicitaria. Complementada con aprendizaje autodidacta en Lean Startup, sesgos cognitivos aplicados al consumidor e innovación basada en feedback rápido",
     tags: [
-      "Distributed Systems",
-      "Cloud Architecture",
-      "Testing",
-      "Microservices",
+       "Marketing Digital",
+      "Publicidad",
+      "Investigación de mercados",
+      "Comunicación",
+      "Lean Startup",
     ],
   },
 ];
