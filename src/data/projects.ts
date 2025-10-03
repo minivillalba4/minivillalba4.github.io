@@ -1,5 +1,3 @@
-import PhoenixIcon from '../assets/logos/Phoenix-logo.svg?raw';
-import N8nIcon from '../assets/logos/N8n-logo.svg?raw';
 import SupabaseIcon from '../assets/logos/Supabase-logo.svg?raw';
 import PosthogIcon from '../assets/logos/posthog-logo.svg?raw';
 import PythonIcon from '../assets/logos/Python-logo.svg?raw';
@@ -13,7 +11,7 @@ export const projects = [
 		description: "Event‑driven workflows for data sync, notifications, and back‑office automation. Custom nodes, secrets management, retries, and metrics.",
 		ctaText: "View Repo →",
 		ctaLink: "#",
-		icon: N8nIcon
+		
 	},
 	{
 		title: "SaaS API Starter (Auth, Billing, RBAC)",
@@ -29,7 +27,7 @@ export const projects = [
 		description: "Low‑latency chat with channels, presence, and backpressure handling. Includes load tests and horizontal scaling notes.",
 		ctaText: "Live Demo →",
 		ctaLink: "#",
-		icon: PhoenixIcon
+		
 	},
 	{
 		title: "Product Analytics Pipeline",

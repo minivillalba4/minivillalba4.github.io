@@ -1,6 +1,3 @@
-import jobIconRaw from '../assets/icons/job-title-icon.svg?raw';
-import companyIconRaw from '../assets/icons/company-icon.svg?raw';
-import locationIconRaw from '../assets/icons/location-icon.svg?raw';
 import { sanitizeToOutline } from '../lib/svg';
 
 export const workIcons = {
