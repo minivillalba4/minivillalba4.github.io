@@ -1,12 +1,21 @@
 ---
-const liUrl = "https://www.linkedin.com/in/ismael-villalba-serrano-209440229/";
-const ghUrl = "https://github.com/minivillalba4";
+interface Props {
+  title: string;
+  url: string;
+}
+const { title, url } = Astro.props as Props;
+
+// LinkedIn: se comparte la URL actual
+const liUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`;
+
+// GitHub: enlace directo a tu perfil (no es "share", es un link personal)
+const ghUrl = `https://github.com/minivillalba4`;
 
 import liIcon from '../../../assets/icons/linkedin-blog-post-shareicon.svg?raw';
-import ghIcon from '../../../assets/icons/github.svg?raw'; // crea este archivo si aún no lo tienes
+import ghIcon from '../../../assets/icons/github.svg?raw'; // asegúrate de tener github.svg en assets/icons
 ---
 
 <div class="sw-share group flex items-center gap-2">
-  <a href={liUrl} target="_blank" rel="noopener noreferrer" class="sw-share-btn" aria-label="Mi LinkedIn" set:html={liIcon} />
-  <a href={ghUrl} target="_blank" rel="noopener noreferrer" class="sw-share-btn" aria-label="Mi GitHub" set:html={ghIcon} />
+  <a href={liUrl} target="_blank" rel="noopener noreferrer" class="sw-share-btn" aria-label="Compartir en LinkedIn" set:html={liIcon} />
+  <a href={ghUrl} target="_blank" rel="noopener noreferrer" class="sw-share-btn" aria-label="Ver mi GitHub" set:html={ghIcon} />
 </div>
