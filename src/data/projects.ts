@@ -1,6 +1,5 @@
 // src/data/projects.ts
 import PythonIcon   from '../assets/logos/Python-logo.svg?raw';
-import PostgresIcon from '../assets/logos/Postgres-logo.svg?raw';
 import SqlIcon      from '../assets/logos/SQL-logo.svg?raw';
 
 export const projects = [
@@ -10,7 +9,7 @@ export const projects = [
     description: "Event-driven workflows for data sync, notifications, and back-office automation. Custom nodes, secrets management, retries, and metrics.",
     ctaText: "View Repo →",
     ctaLink: "#",
-    icon: PostgresIcon, // placeholder válido
+    icon: SqlIcon, // placeholder válido
   },
   {
     title: "SaaS API Starter (Auth, Billing, RBAC)",
@@ -35,7 +34,7 @@ export const projects = [
     description: "Event ingestion, batching, and replay; user properties and cohorts; dashboards for funnels, retention, and feature adoption.",
     ctaText: "Read Case Study →",
     ctaLink: "#",
-    icon: PostgresIcon,
+    icon: SqlIcon,
   },
   {
     title: "Dashboard Cancelaciones Hoteleras",
