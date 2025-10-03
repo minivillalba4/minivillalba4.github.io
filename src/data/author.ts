@@ -1,5 +1,4 @@
-import fotoLinkedin from '../src/assets/images/sample-avatar.jpg';
-
+import fotoLinkedin from '../assets/images/foto_linkedin.jpeg';
 export const author = {
   name: 'Ismael Villalba',
   avatar: { src: fotoLinkedin }, // aseguramos compatibilidad con el .src
