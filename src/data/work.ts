@@ -10,74 +10,62 @@ export const workIcons = {
 };
 
 export const work = [
-  {
-    title: "Senior Software Engineer",
-    company: "Acme Cloud",
-    region: "United States",
+  [{
+    title: "Sales Analytics",
+    company: "Carrefour",
+    region: "España",
     description:
-      "Led the design and delivery of a multi‑tenant platform, decomposed critical monolith paths into services, improved p95 latency by 40%, defined SLOs and on‑call rotations, and mentored junior engineers.",
+      "Actualización y validación de bases de datos de ventas mediante SQL, automatización de informes en Excel a partir de datos Nielsen y GFK, y extracción de insights sobre comportamiento del consumidor para apoyar decisiones estratégicas.",
     technologies: [
-      "TypeScript",
-      "Node.js",
-      "React",
-      "PostgreSQL",
-      "Redis",
-      "AWS",
-      "Docker",
-      "Kubernetes",
-      "Terraform",
-      "GraphQL",
+      "SQL",
+      "Excel",
+      "Nielsen",
+      "GFK",
+      "Análisis de mercado",
     ],
   },
   {
-    title: "Staff Software Engineer",
-    company: "FinchPay",
+    title: "Freelancer Copywriting SEO",
+    company: "Fiverr",
     region: "Global",
     description:
-      "Architected event‑driven payment services with idempotency and retries, introduced Kafka for async processing, enforced API versioning, and drove observability with structured logging and tracing.",
+      "Redacción técnica y creativa adaptada a SEO y objetivos del cliente, estructuración de contenidos optimizados para posicionamiento orgánico y colaboración en encargos de copy para redes sociales.",
     technologies: [
-      "TypeScript",
-      "NestJS",
-      "Kafka",
-      "PostgreSQL",
-      "Redis",
-      "gRPC",
-      "OpenTelemetry",
-      "AWS",
+      "SEO",
+      "Copywriting",
+      "Marketing de contenidos",
+      "Redacción técnica",
     ],
   },
   {
-    title: "Senior Frontend Engineer",
-    company: "Insight Analytics",
-    region: "Europe",
+    title: "Social Media & E-commerce Assistant",
+    company: "Decasport",
+    region: "España",
     description:
-      "Owned the design system and SSR/ISR strategy, improved Core Web Vitals (LCP/INP) into the green, and shipped accessible UI components with strong tests and story coverage.",
+      "Gestión de contenido digital y campañas de conversión en e-commerce, coordinación operativa de tienda online, soporte en promociones y marketing digital, y apoyo en redes sociales y posicionamiento de marca.",
     technologies: [
-      "React",
-      "Next.js",
-      "Astro",
-      "Tailwind CSS",
-      "Playwright",
-      "Vitest",
+      "E-commerce",
+      "Marketing digital",
+      "Redes sociales",
+      "SEO",
     ],
   },
   {
-    title: "Software Engineer",
-    company: "LaunchPad",
-    region: "Brazil",
+    title: "Fundador E-commerce Dropshipping",
+    company: "Proyecto Propio",
+    region: "España",
     description:
-      "Built MVPs end‑to‑end: designed REST/GraphQL APIs, set up CI/CD with preview environments, introduced feature flags, and migrated data to Postgres.",
+      "Desarrollo y gestión integral de tienda online bajo modelo dropshipping, análisis de métricas comerciales y comportamiento del cliente, aplicación de principios Lean Startup y optimización de procesos.",
     technologies: [
-      "Node.js",
-      "Express",
-      "GraphQL",
-      "Supabase",
-      "PostgreSQL",
-      "GitHub Actions",
-      "Docker",
+      "E-commerce",
+      "Dropshipping",
+      "Lean Startup",
+      "Análisis de datos",
+      "Marketing digital",
     ],
   },
 ];
+
 
 export type WorkItem = (typeof work)[number];
 
