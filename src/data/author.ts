@@ -1,4 +1,4 @@
-import fotoLinkedin from '../assets/images/foto_linkedin.jpeg';
+import fotoLinkedin from '../src/assets/images/sample-avatar.jpg';
 
 export const author = {
   name: 'Ismael Villalba',
