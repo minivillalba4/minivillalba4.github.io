@@ -1,32 +1,41 @@
 ---
 import Layout from '../layouts/BlogPost.astro';
 import GlowLineSeparator from '@/components/ui/separator/GlowLineSeparator.astro';
+import fotoLinkedin from '@/assets/images/foto_linkedin.jpeg';
+
 const pageTitle = 'Acerca de mí';
-const pageDescription = 'Learn more about my background and approach to software engineering.';
+const pageDescription = 'Perfil profesional en Ciencia de Datos.';
 ---
 
 <Layout title={pageTitle} description={pageDescription} pubDate={new Date()} showHeader={false}>
-  <p>
-    Soy estudiante de Data Science con experiencia práctica en proyectos aplicados de análisis de datos, 
-    machine learning, procesamiento de lenguaje natural (NLP) y Big Data. Mi objetivo es aportar valor mediante el uso de datos 
-    para resolver problemas reales y apoyar la toma de decisiones estratégicas.
-  </p>
-  <p>
-    Domino Python (pandas, scikit-learn, Dash/Plotly), SQL, herramientas de Web Scraping (BeautifulSoup, Selenium, APIs) y PySpark, 
-    además de Excel avanzado para análisis.
-  </p>
-  <p>
-    Mi perfil combina formación técnica con experiencia real en entornos de negocio. He trabajado en Carrefour, 
-    donde comprendí de primera mano cómo funcionan los procesos comerciales y la gestión operativa. 
-    Además, he desarrollado un proyecto de emprendimiento, lo que me ha permitido fortalecer habilidades como la autonomía, 
-    la toma de decisiones y la visión estratégica.
-  </p>
-  <p>
-    Me interesa especialmente la aplicación de la Ciencia de Datos al negocio: detectar patrones, optimizar procesos y mejorar 
-    la experiencia del cliente. Estoy en constante aprendizaje y busco entornos donde pueda combinar mis habilidades técnicas 
-    con visión estratégica.
-  </p>
+  <div class="max-w-3xl mx-auto text-center">
+    <img 
+      src={fotoLinkedin} 
+      alt="Foto de Ismael Villalba" 
+      class="w-40 h-40 rounded-full mx-auto mb-6 object-cover shadow-lg"
+    />
+
+    <p>
+      Soy estudiante de Data Science con experiencia práctica en proyectos aplicados de análisis de datos, 
+      machine learning, procesamiento de lenguaje natural (NLP) y Big Data. Mi objetivo es aportar valor mediante el uso de datos 
+      para resolver problemas reales y apoyar la toma de decisiones estratégicas.
+    </p>
+    <p>
+      Domino Python (pandas, scikit-learn, Dash/Plotly), SQL, herramientas de Web Scraping (BeautifulSoup, Selenium, APIs) y PySpark, 
+      además de Excel avanzado para análisis.
+    </p>
+    <p>
+      Mi perfil combina formación técnica con experiencia real en entornos de negocio. He trabajado en Carrefour, 
+      donde comprendí de primera mano cómo funcionan los procesos comerciales y la gestión operativa. 
+      Además, he desarrollado un proyecto de emprendimiento, lo que me ha permitido fortalecer habilidades como la autonomía, 
+      la toma de decisiones y la visión estratégica.
+    </p>
+    <p>
+      Me interesa especialmente la aplicación de la Ciencia de Datos al negocio: detectar patrones, optimizar procesos y mejorar 
+      la experiencia del cliente. Estoy en constante aprendizaje y busco entornos donde pueda combinar mis habilidades técnicas 
+      con visión estratégica.
+    </p>
+  </div>
 
   <GlowLineSeparator />
-
 </Layout>
