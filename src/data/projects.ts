@@ -1,6 +1,11 @@
 // src/data/projects.ts
 import PythonIcon   from '../assets/logos/Python-logo.svg?raw';
 import SqlIcon      from '../assets/logos/SQL-logo.svg?raw';
+import AzureIcon from '../assets/logos/Azure-logo.svg?raw';
+import SparkIcon from '../assets/logos/Spark-logo.svg?raw';
+import ExcelIcon from '../assets/logos/Excel-logo.svg?raw';
+import PowerBIIcon from '../assets/logos/PowerBI-logo.svg?raw';
+
 
 export const projects = [
   {
@@ -17,7 +22,7 @@ export const projects = [
     description: "Production-ready REST/GraphQL API with JWT auth, role-based access, Stripe subscriptions, and rate-limited endpoints.",
     ctaText: "Get Source < / >",
     ctaLink: "#",
-    icon: SqlIcon, // placeholder válido
+    icon: AzureIcon, // placeholder válido
   },
   // Si no quieres mostrar Phoenix, borra este bloque completo.
   {
@@ -26,7 +31,7 @@ export const projects = [
     description: "Low-latency chat with channels, presence, and backpressure handling. Includes load tests and horizontal scaling notes.",
     ctaText: "Live Demo →",
     ctaLink: "#",
-    icon: SqlIcon, // o quita este proyecto si no quieres Phoenix
+    icon: ExcelIcon, // o quita este proyecto si no quieres Phoenix
   },
   {
     title: "Product Analytics Pipeline",
@@ -34,7 +39,7 @@ export const projects = [
     description: "Event ingestion, batching, and replay; user properties and cohorts; dashboards for funnels, retention, and feature adoption.",
     ctaText: "Read Case Study →",
     ctaLink: "#",
-    icon: SqlIcon,
+    icon: SparkIcon,
   },
   {
     title: "Dashboard Cancelaciones Hoteleras",
@@ -50,6 +55,6 @@ export const projects = [
     description: "Accessible UI kit with tokens, theming, and testing. Published as a versioned package with changelogs and docs.",
     ctaText: "Docs →",
     ctaLink: "#",
-    icon: SqlIcon,
+    icon: PowerBIIcon,
   },
 ];
