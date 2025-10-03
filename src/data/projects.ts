@@ -40,11 +40,11 @@ export const projects = [
 		icon: PosthogIcon
 	},
 	{
-		title: "Data Ingestion & ETL",
-		techStack: "Python • Airflow • PostgreSQL • S3",
-		description: "Scheduled extract/transform/load with schema migrations, data quality checks, and partitioned tables for analytics.",
-		ctaText: "View Repo →",
-		ctaLink: "#",
+		title: "Dashboard Cancelaciones Hoteleras",
+		techStack: "Python • Dash/Plotly • Pandas • NumPy",
+		description: "Dashboard interactivo de 119.390 reservas hoteleras con KPIs (cancelaciones, ADR, anticipación) y análisis univariado, multivariado y categórico para detectar factores clave de cancelación.",
+		ctaText: "Ver Dashboard →",
+		ctaLink: "https://drive.google.com/file/d/1T-cKk7sbqzBeMf5orQMCNcitTv_UAYy5/view?usp=sharing",
 		icon: PythonIcon
 	},
 	{
