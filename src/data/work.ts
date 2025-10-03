@@ -10,10 +10,10 @@ export const workIcons = {
 };
 
 export const work = [
-  [{
+  {
     title: "Sales Analytics",
     company: "Carrefour",
-    region: "España",
+    region: "Alcobendas",
     description:
       "Actualización y validación de bases de datos de ventas mediante SQL, automatización de informes en Excel a partir de datos Nielsen y GFK, y extracción de insights sobre comportamiento del consumidor para apoyar decisiones estratégicas.",
     technologies: [
@@ -29,7 +29,7 @@ export const work = [
     company: "Fiverr",
     region: "Global",
     description:
-      "Redacción técnica y creativa adaptada a SEO y objetivos del cliente, estructuración de contenidos optimizados para posicionamiento orgánico y colaboración en encargos de copy para redes sociales.",
+      "Colaboración en títulos SEO Optimizados para páginas web",
     technologies: [
       "SEO",
       "Copywriting",
@@ -40,9 +40,9 @@ export const work = [
   {
     title: "Social Media & E-commerce Assistant",
     company: "Decasport",
-    region: "España",
+    region: "Leganés",
     description:
-      "Gestión de contenido digital y campañas de conversión en e-commerce, coordinación operativa de tienda online, soporte en promociones y marketing digital, y apoyo en redes sociales y posicionamiento de marca.",
+      "Gestión de contenido digital y conversión en e-commerce, coordinación operativa de tienda online, soporte en promociones y marketing digital, y apoyo en redes sociales y posicionamiento de marca.",
     technologies: [
       "E-commerce",
       "Marketing digital",
@@ -53,9 +53,9 @@ export const work = [
   {
     title: "Fundador E-commerce Dropshipping",
     company: "Proyecto Propio",
-    region: "España",
+    region: "Parla",
     description:
-      "Desarrollo y gestión integral de tienda online bajo modelo dropshipping, análisis de métricas comerciales y comportamiento del cliente, aplicación de principios Lean Startup y optimización de procesos.",
+      "Desarrollo y gestión integral de tienda online bajo modelo dropshipping, análisis de métricas comerciales y comportamiento del cliente, aplicación de principios Lean Startup y optimización de procesos",
     technologies: [
       "E-commerce",
       "Dropshipping",
@@ -65,7 +65,6 @@ export const work = [
     ],
   },
 ];
-
 
 export type WorkItem = (typeof work)[number];
 
