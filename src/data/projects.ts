@@ -9,20 +9,20 @@ import PowerBIIcon from '../assets/logos/PowerBI-logo.svg?raw';
 
 export const projects = [
   {
-    title: "Workflow Automation Orchestrator (n8n)",
+    title: "Clasificación Según nivel de Ingresos (Machine Learning)",
     techStack: "n8n • Node.js • TypeScript • PostgreSQL",
-    description: "Event-driven workflows for data sync, notifications, and back-office automation. Custom nodes, secrets management, retries, and metrics.",
-    ctaText: "View Repo →",
-    ctaLink: "#",
-    icon: SqlIcon, // placeholder válido
+    description: "Proyecto de Machine Learning para predecir si un individuo gana más o menos de 50 K al año según variables sociodemográficas. Incluye EDA, preprocesamiento, selección de modelos y un Voting Classifier con interpretación mediante SHAP.",
+    ctaText: "Ver en GitHub →",
+    ctaLink: "https://github.com/minivillalba4/trabajo_final_prediccion",
+    icon: PythonIcon, // placeholder válido
   },
   {
-    title: "SaaS API Starter (Auth, Billing, RBAC)",
-    techStack: "Node.js • TypeScript • PostgreSQL • Supabase • Stripe",
-    description: "Production-ready REST/GraphQL API with JWT auth, role-based access, Stripe subscriptions, and rate-limited endpoints.",
-    ctaText: "Get Source < / >",
+    title: "Análisis de Productos de Supermercado con NLP (en curso)",
+    techStack: "Python • Selenium • NLP • Scikit-Learn • Transformers • Pandas • JSON",
+    description: "Proyecto de Procesamiento del Lenguaje Natural desarrollado para la asignatura de ChatGPT. Fase 1: extracción y limpieza de textos de productos desde varias webs. Fase 2: modelado y clasificación del contenido nutricional. Fase 3: implementación de un buscador semántico basado en embeddings y técnicas RAG.",
+    ctaText: "Ver progreso en GitHub →",
     ctaLink: "#",
-    icon: AzureIcon, // placeholder válido
+    icon: PythonIcon, // placeholder válido
   },
   // Si no quieres mostrar Phoenix, borra este bloque completo.
   {
