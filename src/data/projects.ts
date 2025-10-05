@@ -9,7 +9,7 @@ import PowerBIIcon from '../assets/logos/PowerBI-logo.svg?raw';
 export const projects = [
   {
     title: "Clasificación Según nivel de Ingresos (Machine Learning)",
-    techStack: "Python • Scikit-learn • Pandas • SHAP",
+    techStack: "Python • Scikit-learn • Pandas • Matplotlib • Feature Engineering",
     description:
       "Proyecto de Machine Learning para predecir si un individuo gana más o menos de 50 K al año según variables sociodemográficas. Incluye EDA, preprocesamiento, selección de modelos y un Voting Classifier con interpretación mediante SHAP.",
     ctaText: "Ver en GitHub →",
@@ -18,7 +18,7 @@ export const projects = [
   },
   {
     title: "Análisis de Productos de Supermercado con NLP (en curso)",
-    techStack: "Python • Selenium • NLP • Pandas • JSON",
+    techStack: "Python • Selenium • NLP • Pandas • JSON • Beautifulsoup",
     description:
       "Proyecto de Procesamiento del Lenguaje Natural desarrollado para la asignatura de ChatGPT. Fase 1: extracción y limpieza de textos de productos desde varias webs. Fase 2: modelado y clasificación del contenido nutricional. Fase 3: implementación de un buscador semántico basado en embeddings y técnicas RAG.",
     ctaText: "Ver progreso en GitHub →",
@@ -32,7 +32,7 @@ export const projects = [
       "Dashboard interactivo de 119.390 reservas hoteleras con KPIs (cancelaciones, ADR, anticipación) y análisis univariado, multivariado y categórico para detectar factores clave de cancelación.",
     ctaText: "Ver Dashboard →",
     ctaLink:
-      "https://drive.google.com/file/d/1T-cKk7sbqzBeMf5orQMCNcitTv_UAYy5/view?usp=sharing",
+      "https://www.notion.so/Dashboard-Ploty-283b28adc6d7807ab473e24d3b40694d?source=copy_link",
     icon: PythonIcon,
   },
 ];
