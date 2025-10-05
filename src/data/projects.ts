@@ -18,29 +18,13 @@ export const projects = [
   },
   {
     title: "Análisis de Productos de Supermercado con NLP (en curso)",
-    techStack: "Python • Selenium • NLP • Scikit-Learn • Transformers • Pandas • JSON",
+    techStack: "Python • Selenium • NLP • Pandas • JSON",
     description: "Proyecto de Procesamiento del Lenguaje Natural desarrollado para la asignatura de ChatGPT. Fase 1: extracción y limpieza de textos de productos desde varias webs. Fase 2: modelado y clasificación del contenido nutricional. Fase 3: implementación de un buscador semántico basado en embeddings y técnicas RAG.",
     ctaText: "Ver progreso en GitHub →",
-    ctaLink: "#",
+    ctaLink: "https://github.com/minivillalba4/proyecto_chatbots",
     icon: PythonIcon, // placeholder válido
   },
   // Si no quieres mostrar Phoenix, borra este bloque completo.
-  {
-    title: "Realtime Chat Service",
-    techStack: "Phoenix • WebSockets • Redis • Docker",
-    description: "Low-latency chat with channels, presence, and backpressure handling. Includes load tests and horizontal scaling notes.",
-    ctaText: "Live Demo →",
-    ctaLink: "#",
-    icon: ExcelIcon, // o quita este proyecto si no quieres Phoenix
-  },
-  {
-    title: "Product Analytics Pipeline",
-    techStack: "Node.js • PostHog • PostgreSQL • ClickHouse",
-    description: "Event ingestion, batching, and replay; user properties and cohorts; dashboards for funnels, retention, and feature adoption.",
-    ctaText: "Read Case Study →",
-    ctaLink: "#",
-    icon: SparkIcon,
-  },
   {
     title: "Dashboard Cancelaciones Hoteleras",
     techStack: "Python • Dash/Plotly • Pandas • NumPy",
@@ -50,11 +34,4 @@ export const projects = [
     icon: PythonIcon,
   },
   {
-    title: "Design System",
-    techStack: "React • TypeScript • Tailwind CSS • Storybook",
-    description: "Accessible UI kit with tokens, theming, and testing. Published as a versioned package with changelogs and docs.",
-    ctaText: "Docs →",
-    ctaLink: "#",
-    icon: PowerBIIcon,
-  },
 ];
