@@ -27,10 +27,10 @@ export const projects = [
   },
   {
     title: "Analisis Sostenibilidad PySpark",
-    techStack: "Big Data • Spark • NLP • PySpark • JSON • Beautifulsoup",
+    techStack: "Big Data • Spark • Parquet • PySpark • Sostenibilidad",
     description:
       "EDA enfocado en sostenibilidad empresarial utilizando PySpark para procesamiento distribuido de Big Data. El sistema genera tablas analíticas finales sobre impacto ambiental corporativo y beneficios de proyectos energéticos, facilitando la toma de decisiones en sostenibilidad empresarial mediante métricas cuantificables",
-    ctaText: "Ver progreso en GitHub →",
+    ctaText: "Ver en GitHub →",
     ctaLink: "https://github.com/minivillalba4/bigdata-sostenibilidad/tree/main",
     icon: SparkIcon,
   },
