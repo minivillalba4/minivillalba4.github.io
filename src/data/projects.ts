@@ -8,12 +8,12 @@ import PowerBIIcon from '../assets/logos/PowerBI-logo.svg?raw';
 
 export const projects = [
   {
-    title: "Clasificación Según nivel de Ingresos (Machine Learning)",
-    techStack: "Python • Scikit-learn • Pandas • Matplotlib • Feature Engineering",
+    title: "Cancelaciones hoteleras: dashboard analítico y modelo predictivo",
+    techStack: "Python • Streamlit • LightGBM • SHAP • Plotly • Docker • SHAP",
     description:
-      "Proyecto de Machine Learning para predecir si un individuo gana más o menos de 50 K al año según variables sociodemográficas. Incluye EDA, preprocesamiento, selección de modelos y un Voting Classifier.",
-    ctaText: "Ver en GitHub →",
-    ctaLink: "https://github.com/minivillalba4/trabajo_final_prediccion",
+      "Análisis exploratorio y modelo de clasificación sobre reservas hoteleras para identificar factores de cancelación y estimar su probabilidad. Dashboard interactivo de 7 vistas con simulador individual e interpretabilidad SHAP global y local.",
+    ctaText: "Ver Demo →",
+    ctaLink: "https://hotels-bmu9.onrender.com",
     icon: PythonIcon,
   },
   {
