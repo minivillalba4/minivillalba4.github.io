@@ -34,15 +34,5 @@ export const projects = [
     ctaLink: "https://github.com/minivillalba4/bigdata-sostenibilidad/tree/main",
     icon: SparkIcon,
   },
-  {
-    title: "Dashboard Cancelaciones Hoteleras",
-    techStack: "Python • Dash/Plotly • Pandas • NumPy",
-    description:
-      "Dashboard interactivo de 119.390 reservas hoteleras con KPIs y análisis para detectar factores clave de cancelación.",
-    ctaText: "Ver Dashboard →",
-    ctaLink:
-      "https://www.notion.so/Dashboard-Ploty-283b28adc6d7807ab473e24d3b40694d?source=copy_link",
-    icon: PythonIcon,
-  },
 ];
 
