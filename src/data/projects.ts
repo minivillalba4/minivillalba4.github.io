@@ -16,6 +16,15 @@ export const projects = [
     ctaLink: "https://hotels-bmu9.onrender.com",
     icon: PythonIcon,
   },
+ {
+    title: "RAG Assistant",
+    techStack: "Python • LangChain • FAISS • Embeddings • Gradio • Hugging Face",
+    description:
+      "Aplicación de Retrieval-Augmented Generation desarrollada como proyecto de Procesamiento del Lenguaje Natural. El sistema ingiere documentación textual, la divide en fragmentos, genera embeddings y construye un índice vectorial para recuperar contexto relevante y responder preguntas mediante un flujo RAG. Incluye despliegue interactivo en Hugging Face Spaces",
+    ctaText: "Ver Demo →",
+    ctaLink: "https://huggingface.co/spaces/villalbaserranoismael/rag_portfolio",
+    icon: PythonIcon,
+  }, 
   {
     title: "Análisis de Productos de Supermercado con NLP (en curso)",
     techStack: "Python • Selenium • NLP • Pandas • JSON • Beautifulsoup",
