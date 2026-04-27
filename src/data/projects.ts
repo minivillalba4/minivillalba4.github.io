@@ -22,7 +22,7 @@ export const projects = [
     description:
       "Aplicación de Retrieval-Augmented Generation desarrollada como proyecto de Procesamiento del Lenguaje Natural. El sistema ingiere documentación textual, la divide en fragmentos, genera embeddings y construye un índice vectorial para recuperar contexto relevante y responder preguntas mediante un flujo RAG. Incluye despliegue interactivo en Hugging Face Spaces",
     ctaText: "Ver Demo →",
-    ctaLink: "https://huggingface.co/spaces/villalbaserranoismael/rag_portfolio",
+    ctaLink: "https://villalbaserranoismael-rag-portfolio.hf.space/",
     icon: PythonIcon,
   }, 
   {
