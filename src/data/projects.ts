@@ -8,6 +8,25 @@ import PowerBIIcon from '../assets/logos/PowerBI-logo.svg?raw';
 
 export const projects = [
   {
+    title: "SOC Multiagent",
+    techStack: "Python • Langgraph • Langsmith • AI Agents • Cybersecurity • Workflow",
+    description:
+      "CONTRASEÑA: ismaelvillalba",
+    ctaText: "Ver más →",
+    ctaLink: "https://soc-multiagent-dr5bqrmsemmidbzbrvn3sf.streamlit.app/",
+    icon: PythonIcon,
+  },
+ {
+    title: "RAG Assistant",
+    techStack: "Python • LangChain • Chroma • Embeddings • Retrievers • Langsmith",
+    description:
+      "CONTRASEÑA: ismaelvillalba",
+    ctaText: "Ver Más →",
+    ctaLink: "https://rag-asistente-legal-m8xptvdsddhz88kb6wfxsn.streamlit.app/",
+    icon: PythonIcon,
+  }, 
+
+  {
     title: "Cancelaciones hoteleras: dashboard analítico y modelo predictivo",
     techStack: "Python • Streamlit • LightGBM • SHAP • Plotly • Docker • SHAP",
     description:
@@ -16,24 +35,7 @@ export const projects = [
     ctaLink: "https://hotels-bmu9.onrender.com",
     icon: PythonIcon,
   },
- {
-    title: "RAG Assistant",
-    techStack: "Python • LangChain • FAISS • Embeddings • Gradio • Hugging Face",
-    description:
-      "Aplicación de Retrieval-Augmented Generation desarrollada como proyecto de Procesamiento del Lenguaje Natural. El sistema ingiere documentación textual, la divide en fragmentos, genera embeddings y construye un índice vectorial para recuperar contexto relevante y responder preguntas mediante un flujo RAG. Incluye despliegue interactivo en Hugging Face Spaces",
-    ctaText: "Ver Demo →",
-    ctaLink: "https://villalbaserranoismael-rag-portfolio.hf.space/",
-    icon: PythonIcon,
-  }, 
-  {
-    title: "Análisis de Productos de Supermercado con NLP (en curso)",
-    techStack: "Python • Selenium • NLP • Pandas • JSON • Beautifulsoup",
-    description:
-      "Proyecto de Procesamiento del Lenguaje Natural desarrollado para la asignatura de Chatbots. Fase 1: extracción y limpieza de textos de productos desde varias webs. Fase 2: modelado y clasificación del contenido nutricional. Fase 3: implementación de un buscador semántico basado en embeddings y técnicas RAG.",
-    ctaText: "Ver progreso en GitHub →",
-    ctaLink: "https://github.com/minivillalba4/proyecto_chatbots",
-    icon: PythonIcon,
-  },
+
   {
     title: "Analisis Sostenibilidad PySpark",
     techStack: "Big Data • Spark • Parquet • PySpark • Sostenibilidad",
